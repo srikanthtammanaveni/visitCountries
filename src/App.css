@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MainContainer {
+  background-color: #161624;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.MainHeading {
+  font-family: 'roboto';
+  font-weight: 600;
+  font-size: 24px;
+  color: #f8fafc;
+}
+
+.ListContainer {
+  list-style-type: none;
+  border: 1px solid #334155;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding-left: none;
+  overflow-y: auto;
+  height: 45%;
+  padding-left: 0px;
+}
+
+.ListCountryContainer {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.noVisitedContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noVisitText {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}

@@ -1,0 +1,45 @@
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+.headingName {
+  margin-top: 7px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'roboto';
+}
+
+.HrLine {
+  border: 1px solid #334155;
+  width: 100%;
+}
+
+.visitedBtn {
+  color: #cbd5e1;
+  text-align: center;
+  width: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 7px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.visitBtn {
+  color: #ffffff;
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 90px;
+  background-color: #3b82f6;
+  border-radius: 4px;
+  font-size: 16px;
+}
